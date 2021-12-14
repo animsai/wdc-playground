@@ -96,12 +96,12 @@
 
 	console.log("getData!");
 
-	var JWTtoken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIyIiwibmJmIjoxNjI3MDIzMzIzLCJleHAiOjIwMjc2MjgxMjMsImlhdCI6MTYyNzAyMzMyMywiaXNzIjoiaHR0cDovL215c2l0ZS5jb20iLCJhdWQiOiJodHRwOi8vbXlhdWRpZW5jZS5jb20ifQ.21IsXhkC_Y8omyJp0YXyP1ueNO5pLJQexP5NEq0EU2Q"
+	var JWTtoken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1laWQiOiIyIiwibmJmIjoxNjI3MDIzMzIzLCJleHAiOjIwMjc2MjgxMjMsImlhdCI6MTYyNzAyMzMyMywiaXNzIjoiaHR0cHM6Ly9hcGkuaW50cmFjZW4ub3JnLyIsImF1ZCI6Imh0dHA6Ly9teWF1ZGllbmNlLmNvbSJ9.45GGRmZTDdZlmWb2wiQXDi23y5L1Xnj0skmoqAVkCm0"
 	    
 	var settings = {
             async: true,
 
-	    url: "https://api-dev.intracen.org/b2b/v1/rest/funding",
+	    url: "https://api.intracen.org/b2b/v1/rest/funding",
 	    contentType: "application/json",
 	    dataType:"json",
             method: "GET",
